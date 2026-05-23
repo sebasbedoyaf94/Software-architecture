@@ -28,7 +28,8 @@ public class Main {
 
         System.out.println();
         john.sendPrivateMessage(camila, "Can you help me with the project?");
-
+        camila.sendPrivateMessaje(john, "Yes");
+        
         System.out.println();
         generalRoom.showHistory();
     }
